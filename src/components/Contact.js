@@ -29,6 +29,7 @@ export default function Contact() {
             <form
               netlify
               name="contact"
+              onSubmit={handleSubmit}
               className="justify-center">
               <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
                 Hire Me
